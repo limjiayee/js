@@ -14,6 +14,7 @@ class main1cScene extends Phaser.Scene {
     create () {
 
         this.add.image(0, 0, 'main1c').setOrigin(0, 0);
+        this.add.text(200,950, 'Press spacebar to next', { font: '20px Courier', fill: '#ffffff' });
 
         // graphics.fillStyle(0xff3300, 1);
 
