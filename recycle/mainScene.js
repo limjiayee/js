@@ -15,6 +15,7 @@ class mainScene extends Phaser.Scene {
         
         this.add.text(60,40, 'Lim Jia Yee CNMT2019', { font: '20px Courier', fill: '#ffffff' });
         this.add.text(60,80, 'Lecturer : Stanley', { font: '20px Courier', fill: '#ffffff' });
+         this.add.text(750,950, 'Press spacebar to next', { font: '20px Courier', fill: '#ffffff' });
 
         console.log("This is mainScene");
 
